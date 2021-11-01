@@ -1,1 +1,82 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.row {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: block;
+	flex-wrap: wrap;
+}
+
+.card {
+	border: 0px none;
+	border-radius: 3px !important;
+	padding: 15px;
+	background-color: #fff;
+	box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+	-webkit-box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+	-moz-box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+	-ms-box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+}
+
+
+.table-blue {
+	border: 1px solid #f3f1f1;
+}
+
+.table-blue thead tr th {
+	background-color: #4fabd1;
+	font-weight: 500;
+	color: #fff;
+	vertical-align: middle;
+}
+
+.table-blue tbody tr td {
+	font-size: 14px;
+	border: 1px solid #f3f1f1;
+	vertical-align: middle;
+}
+
+.table-blue tbody tr td a {
+	color: #1fad3c;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.table-blue tbody tr td a:hover {
+	text-decoration: underline;
+}
+
+.table-blue tbody tr td i {
+	color: #1fad3c;
+	font-size: 16px;
+}
+
+.table-blue tbody tr td .btn i {
+	color: #fff;
+}
+
+.table.table-striped.table-bordered.table-blue.fin-custom-table.fbig thead tr th {
+	font-size: 15px;
+	white-space: nowrap;
+}
+
+.table.table-striped.table-bordered.table-blue.fin-custom-table.fbig tbody tr td {
+	font-size: 15px;
+	white-space: nowrap;
+}
+
+.table.table-striped.table-bordered.table-blue.fin-custom-table.break-warp thead tr th {
+	white-space: normal !important;
+}
+
+.table.table-striped.table-bordered.table-blue.fin-custom-table.break-warp tbody tr td {
+	white-space: normal !important;
+}
+
+.table.table-striped.table-bordered.table-blue.fin-custom-table.break-warp tbody tr td.break-wrap1 {
+	white-space: normal !important;
+}
+
+.table.table-striped.table-bordered.table-blue.fin-custom-table.break-warp tbody tr td.fin-no-wrap {
+	white-space: nowrap !important;
+}
